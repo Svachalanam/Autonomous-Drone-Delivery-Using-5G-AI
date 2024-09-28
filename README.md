@@ -1,11 +1,15 @@
 # Autonomous-Drone-Delivery-Using-5G-AI
 Team Svachalanam's submission for the ITU WTSA hackathon. 
 
+
 The GitHub repository includes several subfolders and files, whose functions are described below:
+
+
+Links.docx: Includes links to the submission document, as well as a screen recording of the simulated sandbox.
 
 Python Scripts: This includes several files which aid in facilitating communication between the unity environment, as well as between the UEclient and server files. Builds upon the public work of Y.T. Elashry, whose code aided the development of Unity-Python communication.<br />
 
-•	UdpComms.py: Python file which relays information into unity. Currently uses a local network but will be adapted to OAIC soon.<br />
+•	UdpComms.py: Python file which relays information into unity..<br />
 •	Server.py: Main file which receives inputs from UEclient, and relays to UdpComms<br />
 •	UEClient.py: Client-side file, relays information to server akin to a UE<br />
 
