@@ -11,6 +11,9 @@ Python Scripts: This includes several files which aid in facilitating communicat
 
 
 Simulation.unitypackage: Compiled document which includes several subfiles including scenes, assets, and other prefabs. Simulation occurs in Scenes/SimScene
+
+
+
 •	Assigner: Responsible for receiving inputs from UdpSocket, and converting into box instantiation/destruction.
 •	OrderCoordinator: Serves as the main task coordinator, responsible for assigning orders to drones.
 •	Drone.cs: Custom script within drone, responsible for interactions with payload.
